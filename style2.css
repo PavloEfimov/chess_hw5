@@ -1,0 +1,59 @@
+/*для решение задачи воспользовался позиционированием элементов*/
+
+.main{
+	position: relative;
+	width: 600px;
+	height: 600px;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+}
+.one, .three, .five, .seven, .nine{
+	background-color: #850000;
+}
+.two, .four, .six, .eight{
+	background-color: white;
+}
+.one{
+	top: 0;
+	left: 0;
+}
+.two{
+	top: 0;
+	left: 200px;
+}
+.three{
+	top: 0;
+	right: 0;
+}
+.four{
+	top: 200px;
+	left: 0;
+}
+.five{
+	top: 200px;
+	left: 200px;
+}
+.six{
+	top: 200px;
+	right: 0;
+}
+.seven{
+	bottom: 0;
+	left: 0;
+}
+.eight{
+	bottom: 0;
+	left: 200px;
+}
+.nine{
+	bottom: 0;
+	right: 0;
+}
+/*задействовал хостинг картинок*/
+.img_two, .img_four, .img_eigth{
+	margin-left: 60px;
+	margin-top: 25px;
+}
