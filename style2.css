@@ -1,5 +1,10 @@
 /*для решение задачи воспользовался позиционированием элементов*/
 
+body{
+	margin: 0;
+	padding: 0;
+}
+
 .main{
 	position: relative;
 	width: 600px;
@@ -14,7 +19,7 @@
 	background-color: #850000;
 }
 .two, .four, .six, .eight{
-	background-color: white;
+	background-color: #ffffff;
 }
 .one{
 	top: 0;
